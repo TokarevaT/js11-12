@@ -1,6 +1,7 @@
 ﻿body {
     margin:0;
     padding:0;
+    background-color: lightgrey;
 }
 .carousel{
     margin: 0 auto; 
@@ -31,6 +32,11 @@
  
 .carousel-arrow-left, .carousel-arrow-right {
     float: left;
+    border-radius: 8px;
+    background-color: darkslateblue;
+    color: darksalmon;
+    box-shadow: 0 0 10px 5px rgba(255, 179, 255, 1);
+    font-family: Tahoma;
 }
 .carousel-arrow-left, .carousel-arrow-right {
     float: left;

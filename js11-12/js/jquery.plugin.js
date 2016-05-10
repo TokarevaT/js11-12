@@ -31,7 +31,6 @@
         })
 
         $rightButton.click(function () {
-            debugger
             if (currentLeftValue != minimumOffset) {
                 currentLeftValue -= 125;
                 $('.carousel-list').animate({ left: currentLeftValue + "px" }, 500);
