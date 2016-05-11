@@ -40,3 +40,27 @@ $(document).ready(function () {
     //    }
     //});
 });
+$(function () {
+    var html = $('#test').html();
+    console.log('html', html);
+
+    var articles = [
+         {
+             title: 'Article 1',
+             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+         },
+{
+    title: 'Article 2',
+    content: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+},
+{
+    title: 'Article 3',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
+}
+    ]
+    var content = tmpl(html, {
+        data: articles
+    });
+    console.log('content', content)
+    $('body').append(content);
+});
