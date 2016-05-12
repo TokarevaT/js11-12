@@ -8,7 +8,7 @@
     <div class="carousel"></div>
         <!--<div class="carousel">
             <div class="carousel-arrow-left"><span>Влево</span></div>
-            <div class="carousel-hider">
+            <div class="carousel-hider"> 
                 <ul class="carousel-list">
                     <li class="carousel-element"><img src="../img/108040.jpg"><p>Описание 1</p></li>
                     <li class="carousel-element"><img src="../img/1252077103_240x320_wallpapers-12.jpg"><p>Описание 2</p></li>
@@ -26,13 +26,21 @@
             </div>
             <div class="carousel-arrow-right"><span>Вправо</span></div>
         </div>-->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <script type="text/template" id="test">
-       
-        <% for (var i = 0; i < data.length;i++) { %>
-         <h1><%= data[i].title %></h1>
-        <p><%= data[i].content %></p>
-  <% } %>
-    </script>
+        <div class="main">
+
+            <% for (var i = 0; i < data.length;i++) { %>
+            <div class="titles"><%= data[i].title %></div>
+            <div class="lorem"><%= data[i].content %></div>
+            <% } %>
+            </div>
+</script>
 
 
         <script src="../Scripts/jquery-2.2.3.js"></script>

@@ -9,7 +9,7 @@ $(document).ready(function () {
     { src: '../img/images.jpg', text: 'Описание 6' },
     { src: '../img/tigr_5.jpg', text: 'Описание 7' },
     { src: '../img/192515785.jpg', text: 'Описание 8' },
-    { src: '../img/426417157.jpg', text: 'Описание 9' },
+    { src: '../img/426417157.jpg', text: 'Описание 9' }, 
     { src: '../img/images (1).jpg', text: 'Описание 10' },
     { src: '../img/239432549.jpg', text: 'Описание 11' },
     { src: '../img/flavers_2.gif', text: 'Описание 12' }
@@ -46,6 +46,7 @@ $(function () {
 
     var articles = [
          {
+             
              title: 'Article 1',
              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
          },

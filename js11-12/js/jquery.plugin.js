@@ -10,7 +10,7 @@
         for (var i = 0; i < imgs.length; i++) {
             $carouselContent = $carouselContent + '<li class="carousel-element"><img src="' + imgs[i].src + '"><p>' + imgs[i].text + '</p></li>';
         }
-
+         
         $carouselContent = $carouselContent + '</ul></div>';
 
         $div.append($leftButton);
